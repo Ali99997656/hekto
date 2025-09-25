@@ -1,0 +1,29 @@
+.heder{
+    padding: 40px 0;
+    
+}
+.row .logo{
+    width: 98px;
+    height: 34px;
+}
+nav .ul .li {
+    font-size: 16px;
+    font-family: var(--primary_font);
+   }
+ul .active{
+    color: var(--primary);
+}
+
+header form {
+    border: 2px solid #E7E6EF;
+}
+form .search {
+    border: none;
+    outline: none;
+    font-size: 16px;
+
+}
+form .button {
+   border: none;
+    outline: none; 
+}
