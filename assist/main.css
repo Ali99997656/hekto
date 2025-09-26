@@ -1,3 +1,4 @@
+/* start header */
 .heder{
     padding: 40px 0;
     
@@ -27,3 +28,63 @@ form .button {
    border: none;
     outline: none; 
 }
+/*end heder*/
+/*start footer*/
+footer{
+    background-color: #EEEFFB;
+    padding: 106px 0;
+}
+.form2{
+    border:2px solid #E7E6EF;
+}
+.sign_up{
+    gap: 34px;
+}
+.form2 .sign{
+    border: none;
+    outline: none;
+    height: 33px;
+
+}
+.info p , address{
+    color: var(--three);
+    font-size: 16px;
+}
+.catog{
+    gap: 30px;
+
+}
+.catog h2{
+    color: #000000;
+    font-size: 22px;
+}
+.catog ul li {
+    color: var(--three);
+    font-size: 16px;
+}
+.customar{
+   gap: 30px; 
+}
+.customar h2{
+    color: #000000;
+    font-size: 22px;
+}
+.customar ul li {
+    color: var(--three);
+    font-size: 16px;}
+.pages{
+        gap: 30px;
+    }
+    .pages h2{
+        color: #000000;
+    font-size: 22px;
+    }
+    .pages ul li{
+        color: var(--three);
+    font-size: 16px;
+    text-transform: capitalize;
+    }
+
+
+
+/*end footer*/

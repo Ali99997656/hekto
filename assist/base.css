@@ -52,13 +52,13 @@ li{
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 .colum{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .gap1{
     gap: 5px;
@@ -72,15 +72,11 @@ li{
 :root{
      --primary: #FB2E86;
      --sacond: #0D0E43;
+     --three:#8A8FB9;    
     --primary_font:"lato";
 }
-.bottin{
-    border: none;
-    outline: none;
-    color: #ffffff;
-    background-color: var(--pink);
-    border-radius: 3px;
-}
+
+
 body{
     font-family: var(--primary_font);
 }
@@ -89,4 +85,12 @@ body{
     background-color: var(--primary);
     border: none;
     outline: none;
+}
+.button2{
+    padding: 10px 39px;
+     background-color: var(--primary);
+    border: none;
+    outline: none;
+    color:#EEEFFB;
+    border-radius: 3px;
 }
