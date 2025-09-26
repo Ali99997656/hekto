@@ -29,6 +29,33 @@ form .button {
     outline: none; 
 }
 /*end heder*/
+/*start client section*/
+.client{
+    padding: 40px 0;
+
+}
+.client img{
+    height: 70px;
+}
+
+/*end client section*/
+/*start shope section */
+.shope{
+    background-image: url(./photo/background.jpg);
+padding: 174px;
+background-repeat: no-repeat;
+}
+.shope .contact{
+    justify-content: center;
+    align-items: center;
+}
+.shope .contact h2{
+    font-size: 35px;
+    color: #151875;
+    text-align: center;
+}
+
+/*end shope section*/
 /*start footer*/
 footer{
     background-color: #EEEFFB;
