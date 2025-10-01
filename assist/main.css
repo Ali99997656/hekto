@@ -32,6 +32,32 @@ form .button {
     align-items: center;
 }
 /*end heder*/
+/*start shopex section*/
+.shopex_offer{
+    padding: 40px,0;
+}
+.shopex{
+    align-items: center;
+}
+.shopex_offer .items{
+    align-items: center;
+    width: 270px;
+    padding: 45px 26px;
+}
+.shopex_offer img{
+    width: 65px;
+    height: 65px;
+}
+.shopex_offer h3{
+    color: #151875;
+    font-size: 22px;
+}
+.shopex_offer p{
+    color: #1A0B5B4D;
+    font-size: 16px;
+    text-align: center;
+}
+/*end shopex section*/
 /*start teding section*/
 .tradings{
     padding: 40px 0;
@@ -197,6 +223,7 @@ font-size: 16px;
     background-image: url(./photo/background.jpg);
 padding: 174px;
 background-repeat: no-repeat;
+background-size: cover;
 }
 .shope .contact{
     justify-content: center;
@@ -225,7 +252,7 @@ background-repeat: no-repeat;
 }
 .living_room .rooms {
     
-    gap: 30px;
+    
 }
 
 
@@ -255,8 +282,7 @@ background-repeat: no-repeat;
     color: var(--primary);
 }
 .room1 , .room2 ,.room3{
-    flex-grow: 1;
-    width: calc((100% - 380px) / 3);
+    width: 370px;
 }
 
 /*end living room section*/
