@@ -267,6 +267,10 @@ footer{
 }
 .form2{
     border:2px solid #E7E6EF;
+    align-items: flex-start;
+}
+.form2 input{
+    width: 250px;
 }
 .sign_up{
     gap: 34px;
