@@ -28,7 +28,107 @@ form .button {
    border: none;
     outline: none; 
 }
+.p{
+    align-items: center;
+}
 /*end heder*/
+/*start teding section*/
+.tradings{
+    padding: 40px 0;
+}
+.contant{
+    gap: 40px;
+}
+.tradings h2{
+    color: #151875;
+    font-size: 34px;
+    text-align: center;
+}
+.trading{
+    padding: 10px;
+    border: solid 1px #F6F7FB;
+    gap: 10px;
+}
+.trading img{
+    background-color:#F6F7FB ;
+    width: 244px;
+    height: 244px;
+}
+.trading h3{
+    color: #151875;
+    font-size: 16px;
+    text-align: center;
+}
+.price{
+    justify-content: center;
+    gap: 10px;
+}
+.new{
+    color: #151875;
+    font-size: 14px;
+}
+.old{
+    color: #1518754D;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.clock{
+    width: 420px;
+    height: 270px;
+    background-color: #FFF6FB;
+    padding: 10px;
+}
+.more h3{
+    color: #151875;
+    font-size: 26px;
+    gap: 10px;
+}
+.more a{
+    color: var(--primary);
+    text-decoration: underline;
+    font-size: 16px;
+}
+.clock img{
+    margin-left: 201px;
+}
+.table{
+    padding: 10px;
+    width: 420px;
+    height: 270px;
+    background-color: #EEEFFB;
+}
+.table img{
+    width: 312px;
+    height: 173px;
+    margin-left: 100px;
+     margin-top: 10px;
+}
+.chairs{
+    gap: 29px;
+}
+.chair{
+    background-color:#F5F6F8 ;
+    width: 107px;
+    height: 71px;
+}
+.chair img{
+        width: 64px;
+        height: 71px;
+    }
+    .chairs h3{
+        font-size: 14px;
+        color: #151875;
+    }
+    .chairs span{
+        font-size: 12px;
+        text-decoration: line-through;
+        color: #151875;
+    }
+
+
+
+/*end teding section*/
+
 /*start top section*/
 .Top{
     padding: 40px 0;
@@ -215,6 +315,7 @@ footer{
     font-size: 16px;
     text-transform: capitalize;
     }
+    
 
 
 
