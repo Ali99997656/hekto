@@ -61,7 +61,7 @@ li{
     
 }
 .gap1{
-    gap: 5px;
+    gap: 2px;
 }
 .gap2{
    gap: 10px;
@@ -110,3 +110,22 @@ body{
     border:solid 1px #FB2E86;
 
 }
+.button5{
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #05E6B7;
+}
+.button6{
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: var(--primary);
+}
+.button7{
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #00009D;
+}
+
