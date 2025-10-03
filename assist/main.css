@@ -31,7 +31,121 @@ form .button {
 .p{
     align-items: center;
 }
+svg {
+    width: 35px;
+    height: 35px;
+    color: #151875;
+    display: none;
+}
+@media  (max-width : 850px) {
+     
+    .search{
+        display: none;
+    }
+    .action{
+        display: none;
+    }
+    .list1{
+        display: none;
+    }
+    svg{
+        display: block;
+    }
+} 
+    
+
 /*end heder*/
+/*start leatest  section*/
+.leatest{
+    padding: 40px 0;
+}
+.leatest .datiles{
+    align-items: center;
+}
+.leatest h2{
+    color: #151875;
+    font-size: 42px;
+}
+.links{
+    gap: 58px;
+}
+.links a{
+    color: #151875;
+    font-size: 18px;
+    transition: all 0.6s 0.2s;
+}
+ .links a:hover{
+    color: var(--primary);
+    text-decoration: underline;
+}
+.leatest.productss{
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 28px;
+
+}
+.leatest .card{
+    width: 360px;
+    height: 306px;
+    flex-grow: 1;
+
+}
+.photo .row{
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+
+}
+.icons button{
+    border: none;
+    background-color: white;
+    display: none ;
+    transition: all 0.6s;
+}
+.cards {
+    width: 223px;
+    height: 229px;
+    transition: all 0.5s;
+    
+}
+.leatest .photo{
+    background-color: #E7E6EF;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+.leateste .price{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.price p{
+    size: 16px;
+    color: #151875;
+}
+.price div{
+    margin-left: auto;
+}
+.new_price{
+    color: #151875;
+    font-size: 14px;
+}
+.old_price{
+    text-decoration: line-through;
+    color: var(--primary);
+    font-size: 12px;
+}
+.card :hover{
+    background-color: white;
+    
+    
+}
+.card :hover .icons button {
+ display: block;}
+.card :hover .cards{
+    border: #000000 solid 2px;
+}
+/*end leatest section*/
+
 /*start shopex section*/
 .shopex_offer{
     padding: 40px,0;
@@ -43,6 +157,7 @@ form .button {
     align-items: center;
     width: 270px;
     padding: 45px 26px;
+    flex-grow: 1;
 }
 .shopex_offer img{
     width: 65px;
@@ -172,7 +287,7 @@ form .button {
     color: #151875;
     font-size: 20px;
 }
-.products span{
+.products .new{
 color: #151875;
 font-size: 16px;
 }
@@ -238,6 +353,9 @@ background-size: cover;
 /*end shope section*/
 .client{
     text-align: center;
+}
+.client img{
+    max-width: 100%;
 }
 /*start living room section*/
 .living_room{
